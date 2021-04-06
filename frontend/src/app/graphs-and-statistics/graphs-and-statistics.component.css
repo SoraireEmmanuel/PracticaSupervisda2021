@@ -1,0 +1,12 @@
+.contenedor{
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+  width: 85%;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+color: antiquewhite;
+  /*background: #24303c;*/
+background-image:url('./../../assets/img/HospitalImg.jpg') ;
+}

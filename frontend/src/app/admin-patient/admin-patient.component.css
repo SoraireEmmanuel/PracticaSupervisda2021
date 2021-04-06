@@ -1,0 +1,80 @@
+.contenedor{
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+  width: 85%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+color: antiquewhite;
+  /*background: #24303c;*/
+  background-image:url('./../../assets/img/cerebro.png') ;
+background-size: cover;
+}
+
+.divp{
+  margin: 0%;
+  padding: 0;
+  align-items: initial;
+}
+.form-register {
+  width: 80%;
+  background: #24303cb9;
+  padding: 30px;
+ /* margin: auto;
+  border-radius: 4px;*/
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.controls {
+  width: 25%;
+  background: #24303c;
+  padding: 5px;
+  border-radius: 4px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 1%;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.contenedor   a{
+  color: #ee12d1;
+}

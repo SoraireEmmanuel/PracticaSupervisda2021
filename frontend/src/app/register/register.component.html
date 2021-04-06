@@ -1,0 +1,25 @@
+<div class="contenedor">
+  <section class="form-register">
+    <form action="">
+    <h2>Formulario de Registro</h2>
+    <hr> <span>Datos Personales</span><br>
+    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Nombre" required>
+    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Apellido">
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Matricula" >
+    <input type="checkbox" style="margin-left: 2.5%;"><label style="margin-left: 1%;"> No Corresponde</label>
+    <input class="controls" type="password" name="correo" id="correo" placeholder="Direccion">
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Correo Electronico">
+    <input class="controls" type="password" name="correo" id="correo" placeholder="Telefono">
+    <hr> <span>Datos de la Cuenta</span><br>
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Usuario">
+    <button style="margin-left: 2.5%; padding: 5px;" class="btn btn-outline-success">Verificar Usuario Disponible</button>
+    <input class="controls" type="password" name="correo" id="correo" placeholder="Contraseña">
+    <input class="controls" type="password" name="correo" id="correo" placeholder="Repita su Contraseña">
+    <input class="controls" type="text" name="correo" id="correo" placeholder="Token de Registro">
+    <br>
+    <input type="checkbox" style="margin-left: 2.5%; margin-top: 1%;">
+    <label style="margin-left: 1%;">Estoy de acuerdo con <a (click)="viewTermsandConditions()">Terminos y Condiciones</a></label>
+    <input class="botons" type="button" value="Registrar" (click)="sendRegister()" >
+  </form>
+  </section>
+</div>
